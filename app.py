@@ -15,7 +15,7 @@ col1, col2 = st.columns([3,1])
 with col1:
     function_url = st.text_input(
         "Azure Function URL",
-        placeholder="https://<your-function-app>.azurewebsites.net/api/query"
+        placeholder="https://ragex-backend.azurewebsites.net/api/query"
     )
 with col2:
     demo_mode = st.checkbox("Demo mode", value=False)
