@@ -1,0 +1,29 @@
+@'
+# .gitignore
+# Python / venv
+.venv/
+venv/
+ENV/
+env/
+pyvenv.cfg
+
+# Bytecode / caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+~$*
+
+# Logs
+*.log
+
+# Streamlit
+.streamlit/
+'@ > .gitignore
